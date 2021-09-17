@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:cursive;
+    font-size: 17px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 500;
+    overflow-x: hidden;
+}
+.menu{
+    background-color: rgb(8, 136, 104);
+    text-align: center;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: snow;
+}
+.navbar ul {
+    display: inline-flex;
+    list-style: none;
+    color: whitesmoke;  
+}
+.navbar ul li{
+    width: 120px;
+    padding: 15px;
+    margin: 5px;
+}
+.navbar ul li:hover{
+    background-color:rgb(173, 179, 177);
+    border-radius: 10px;
+}
+.sub-menu {
+    display: none;
+}
+.menu ul :hover .sub-menu{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    background-color:rgb(8, 136, 104);
+    margin-top: 15px;
+    margin-left: -15px;
+    transition-delay: 0.5s;
+    border-radius: 3px;
+}
+.menu ul :hover .sub-menu ul li{
+    width: 120px;
+    color: white;
+    background: transparent;
+    border-bottom: 1px solid whitesmoke;
+    border-radius:0;
+    text-align: left;
+}
+.menu ul :hover .sub-menu ul li:last-child{
+    border-bottom: none;
+}
+.menu ul :hover .sub-menu ul li:hover{
+    color:skyblue;
+}
+.menu ul :hover .sub-menu ul{
+    display: block;
+    margin-top: 10px;
+}
+.sub-menu1{
+    display: none;
+}
+i{
+    float: right;
+}
+.main-section{
+    margin-left: 5%;
+}
+.heading{
+    color: #00313C;
+    margin-top:5%;
+    margin-left:5%;
+    font-weight: 900;
+    font-size: 60px;
+}
+.paragraph{
+    color: #00313C;
+    margin-top:1%;
+    width: 40%;
+    line-height: 25px;
+    margin-left: 5%;
+}
+.paragraph1{
+    color: #00313C;
+    margin-top:-31%;
+    width: 40%;
+    line-height: 25px;
+    margin-left: 50%;
+}
+#location{
+    margin-left: 10%;
+    font-size: 28px;
+    margin-bottom: 2%;
+}
+.loc-para{
+    margin-left: 10%;
+    color: #00313C;
+}
+.bottom p{
+    margin-left: 10%;
+}
+.espoo{
+    margin-left: 10%;
+    font-size: 16px;
+    margin-bottom: 1%;
+}
+.London{
+    margin-top: -8%;
+    margin-left: 23%;
+    font-size:16px ;
+    margin-bottom: 1%;
+}
+.bottom1 p{
+    margin-left: 23%;
+}
+
+.Shenzhen{
+    margin-left:10% ;
+    font-size: 16px;
+    margin-bottom: 1%;
+}
+.bottom2 p{
+    margin-left: 10%;
+}
+
+.contactmap{
+    width: 50%;
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+footer{
+    position: relative;
+    background-color:#00313C ;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    border-radius:2px;
+    margin-top: 20px;
+}
+
+.logo-hmd{
+    float: left;
+    margin-top: -5%;
+    margin-left: -50%;
+    width: 350px;
+    height:180px;
+}
+footer .content{
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px 40px 40px 40px;
+}
+footer .l-side{
+  width: 20%;
+
+}
+.footer-para{
+   line-height: 30px;
+   margin-left: -45%;
+    margin-bottom: 5%;
+    font-weight: 400;
+    color: snow;
+}
+footer .content .right-side{
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    margin-left:5%;
+    justify-content: space-between;
+}
+footer .content .right-side .r-footer{
+    width: calc(100% / 5 - 10px);
+}
+.content .right-side .r-footer li{
+    list-style: none;
+    font-size: 16px;
+    text-decoration: none;
+}
+.content .right-side .r-footer .link-name{
+    color:whitesmoke;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.content .right-side .r-footer li{
+    margin: 6px 0;
+    list-style: none;
+}
+.content .right-side .r-footer li a{
+    color: whitesmoke;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+.content .right-side .r-footer li a:hover{
+    color:rgb(233, 114, 233);
+}
+

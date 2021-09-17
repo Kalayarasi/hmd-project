@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:cursive;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 500;
+    overflow-x: hidden;
+}
+.menu{
+    background-color: rgb(8, 136, 104);
+    text-align: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: snow;
+}
+.navbar ul {
+    display: inline-flex;
+    list-style: none;
+    color: whitesmoke;  
+}
+.navbar ul li{
+    width: 120px;
+    padding: 15px;
+    margin: 5px;
+}
+.navbar ul li:hover{
+    background-color:rgb(173, 179, 177);
+    border-radius: 10px;
+}
+.sub-menu {
+    display: none;
+}
+.menu ul :hover .sub-menu{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    background-color:rgb(8, 136, 104);
+    margin-top: 15px;
+    margin-left: -15px;
+    transition-delay: 0.5s;
+    border-radius: 3px;
+}
+.menu ul :hover .sub-menu ul li{
+    width: 120px;
+    color: white;
+    background: transparent;
+    border-bottom: 1px solid whitesmoke;
+    border-radius:0;
+    text-align: left;
+}
+.menu ul :hover .sub-menu ul li:last-child{
+    border-bottom: none;
+}
+.menu ul :hover .sub-menu ul li:hover{
+    color:skyblue;
+}
+.menu ul :hover .sub-menu ul{
+    display: block;
+    margin-top: 10px;
+}
+.sub-menu1{
+    display: none;
+}
+i{
+    float: right;
+}
+
+fieldset{
+    align-items: center;
+    margin:5% 10%;
+    padding: 6%;
+    border: 2px solid grey;
+    background-color:khaki;
+}
+form{
+    text-align: center;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(61, 170, 61);
+    font-size: 18px;
+    color: whitesmoke;
+    border: none;
+}
+button:hover{
+    background-color: rgb(100, 240, 100);
+}
+input{
+    font-size: 20px;
+}
