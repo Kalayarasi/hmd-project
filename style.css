@@ -285,41 +285,6 @@
 .btn-showmore:hover{
     background-color:#16ccda;   
 }
-#product-section{
-    margin-top: 10%;
-    margin-left: 12%;
-}
-#product-heading{
-    color:#00313C;
-    font-size: 55px;
-} 
-#nokiax20:hover{
-    width: 350px;
-    height:350px;
-}
-#nokiac20:hover{
-    width: 350px;
-    height:350px;
-}
-#nokiax10:hover{
-    width: 350px;
-    height:350px;
-}
-.leanmore-link{
-    margin-top: 10px;
-    text-decoration: none;
-}
-.btn-all{
-    color: whitesmoke;
-    font-size: 18px;
-    margin-left: 17%;
-    text-decoration: none;
-    padding:10px 25px;
-    background-color: #128F99;
-} 
-.btn-all:hover{
-    background-color:#16ccda; 
-}
 .break{
     margin-left: 10%;
     margin-top: 10%;
@@ -382,48 +347,7 @@ u{
     opacity: 40%;
     margin-bottom: 5%;
 }
-.contactmap{
-    width: 50%;
-    float: right;
-    margin-right: 10%;
-}
-#location{
-    margin-left: 10%;
-    font-size: 28px;
-    margin-bottom: 2%;
-}
-.loc-para{
-    margin-left: 10%;
-}
-.bottom p{
-    margin-left: 10%;
-    font-size: 14px;
-}
-.espoo{
-    margin-left: 10%;
-    font-size: 15px;
-    margin-bottom: 1%;
-}
-.London{
-    margin-top: -5%;
-    margin-left: 23%;
-    font-size:15px ;
-    margin-bottom: 1%;
-}
-.bottom1 p{
-    margin-left: 23%;
-    font-size: 14px;
-}
 
-.Shenzhen{
-    margin-left:10% ;
-    font-size: 15px;
-    margin-bottom: 1%;
-}
-.bottom2 p{
-    margin-left: 10%;
-    font-size: 14px;
-}
 footer{
     position: relative;
     background-color:#00313C ;
